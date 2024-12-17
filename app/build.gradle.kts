@@ -93,5 +93,17 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
 
+   //Unit testcases
+   testImplementation ("junit:junit:4.13.2")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.1")
+    androidTestImplementation ("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation ("androidx.room:room-testing:2.5.1")
+    // Kotlin-specific support for Mockito
+    testImplementation ("org.mockito:mockito-core:5.0.0")
+    testImplementation ("org.mockito.kotlin:mockito-kotlin:5.0.0")
+
+    // Mockito Compiler for Kotlin (annotation processing)
+    kaptTest ("org.mockito:mockito-compiler:5.0.0")
+
     }
 
